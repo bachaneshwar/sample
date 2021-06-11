@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/karathil/sbds.in/git_test
+    - /bin/cp * $DEPLOYPATH
